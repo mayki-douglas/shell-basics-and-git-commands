@@ -20,7 +20,7 @@ shutdown -h 0          | desligamento do PC
 ip addr show           | comando similar ao **ipconfig** do Windows
 more /etc/passwd       | lista completa de usuários criadas no computador
 less /etc/passwd       | lista paginada de usuários criadas no computador
-cat /etc/passwd |grep  | buscar algo específico dos usuários
+cat /etc/passwd  grep  | buscar algo específico dos usuários. ps: usar o **pipe grep**
 cat /etc/group         | lista de grupos no computador
 cp + nome + nome novo  | copia um arquivo e cria um novo com nome que será destinado
 cp -r + nome           | copia um diretório
