@@ -94,7 +94,7 @@ RWX | RWX | RWX
  U  |  G  |  O
 --- | --- | ---
 RWX | R-X | RW- 
-111 | 111 | 111 
+111 | 101 | 110 
 
 * permissões alteradas no comando *chmod*, convertendo para 756 *chmod 756*.
 * Arquivo pode ser alterado pelos usuários mas não pode ser editados pelo grupo e nem executado por outros.
