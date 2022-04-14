@@ -74,13 +74,13 @@ DECIMAL | HEXADECIMAL | BINÁRIO
 
 # Entendendo o conceito RWX ou UGO
 
-R - *read*
-W - *write*
-X - *execute*
+* R - *read*
+* W - *write*
+* X - *execute*
 
-U - *users*
-G - *groups*
-O - *others*
+* U - *users*
+* G - *groups*
+* O - *others*
 
 * Um usuário *user*, tem permissão de ler, editar e executar um arquivo. Convertendo em binário, seria *111*
 
