@@ -84,9 +84,12 @@ DECIMAL | HEXADECIMAL | BINÁRIO
 
 * Um usuário *user*, tem permissão de ler, editar e executar um arquivo. Convertendo em binário, seria *111*
 
- U       G       O
-RWX     RWX     RWX = convertendo para binário, users, groups e others estão com valor 111
-111     111     111
+ U  |  G  |  O
+--- | --- | ---
+RWX | RWX | RWX 
+111 | 111 | 111
+
+* Convertendo para binário, users, groups e others estão com valor 111
 
  U       G       O
 RWX     R-X     RW- = permissões alteradas no comando *chmod*, convertendo para 756 *chmod 756*.
