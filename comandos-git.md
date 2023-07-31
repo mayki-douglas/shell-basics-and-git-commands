@@ -9,6 +9,8 @@ git config --global user.email       | Inserir o email verificado do seu perfil 
 
 ## Comandos mais usados no GitBash:
 
+Comando no terminal                  | Ação
+:----------------------------------: | ----
 git clone [HTTPS] [SSH] [GitHub CLI] | Clonar um repositório para seu computador usando URL, chave SSH ou client do Github
 git status                           | Mostra no terminal o status do repositório
 git add "nome do arquivo"            | Add o arquivo novo e específico ao repositório
